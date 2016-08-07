@@ -1,10 +1,8 @@
-package com.assignment1
+package com.assignment
 
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkConf
-import scala.util.{Success, Try}
+import org.apache.spark.{SparkConf, SparkContext}
 
-object SparkAssignment extends App {
+object SparkAssignment1 extends App {
 
   val conf = new SparkConf().setAppName("appName").setMaster("local")
   val sc = new SparkContext(conf)
